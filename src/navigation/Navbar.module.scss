@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: sticky;
+  width: 100%;
+  top: 30px;
+  padding: 15px 0;
+  color: #fff;
+  a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-right: 16px;
+    border: 1px solid trnapsarent;
+    &:hover {
+      border-bottom: 1px solid #fff;
+    }
+  }
+
+  nav {
+    margin-right: 16px;
+    @media (max-width: 520px) {
+      display: none;
+    }
+  }
+
+  &__button {
+    cursor: pointer;
+    display: block;
+    margin-right: 16px;
+    span {
+      display: block;
+      width: 30px;
+      height: 2px;
+      background-color: #fff;
+      margin-right: 15px;
+      &:not(:first-child) {
+        margin-top: 6px;
+      }
+    }
+
+    @media (min-width: 520px) {
+      display: none;
+    }
+  }
+
+  &__title {
+    margin-left: 16px;
+    border: 1px solid transparent;
+
+    &:hover {
+      border-bottom: 1px solid #fff;
+      cursor: pointer;
+    }
+  }
+}

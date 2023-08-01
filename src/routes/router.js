@@ -13,7 +13,7 @@ import Contacts from "../pages/contacts/Contacts";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" elemen={<RootLayout />}>
+    <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path="project" element={<Project />} />
       <Route path="about" element={<About />} />

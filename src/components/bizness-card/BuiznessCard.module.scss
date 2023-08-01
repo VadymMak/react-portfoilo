@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  p {
+    color: #7f7f7f;
+    padding: 6px 0;
+  }
+}
